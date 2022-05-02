@@ -41,7 +41,7 @@ extension TraitViewController: UITableViewDataSource, UITableViewDelegate {
         cell.traitDesc?.text = traits.traitArray[indexPath.row].description
         
         cell.traitImageView.loadImage(traitString: "\(traits.traitArray[indexPath.row].name)")
-
+        cell.traitImageView.backgroundColor = .white
         return cell
     }
     

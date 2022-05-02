@@ -32,8 +32,8 @@ extension UIImageView {
             }
         }
     }
-
-
+    
+    
     func loadImage(traitString: String) {
         DispatchQueue.global().async { [weak self] in
             if let image = UIImage(named: traitString) {

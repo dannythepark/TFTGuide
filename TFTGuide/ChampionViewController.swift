@@ -71,16 +71,24 @@ extension ChampionViewController: UITableViewDataSource, UITableViewDelegate {
         //Updates Trait Images
         if champions.champArray[indexPath.row].traits.count == 1 {
             cell.firstTrait.updateFirstTraits(traits: champions.champArray[indexPath.row].traits)
+            cell.firstTrait.backgroundColor = .white
+
             cell.secondTrait.isHidden = true
             cell.thirdTrait.isHidden = true
         } else if champions.champArray[indexPath.row].traits.count == 2 {
             cell.firstTrait.updateFirstTraits(traits: champions.champArray[indexPath.row].traits)
             cell.secondTrait.updateSecondTraits(traits: champions.champArray[indexPath.row].traits)
+            cell.firstTrait.backgroundColor = .white
+            cell.secondTrait.backgroundColor = .white
+
             cell.thirdTrait.isHidden = true
         } else {
             cell.firstTrait.updateFirstTraits(traits: champions.champArray[indexPath.row].traits)
             cell.secondTrait.updateSecondTraits(traits: champions.champArray[indexPath.row].traits)
             cell.thirdTrait.updateThirdTraits(traits: champions.champArray[indexPath.row].traits)
+            cell.firstTrait.backgroundColor = .white
+            cell.secondTrait.backgroundColor = .white
+            cell.thirdTrait.backgroundColor = .white
             cell.firstTrait.isHidden = false
             cell.secondTrait.isHidden = false
             cell.thirdTrait.isHidden = false

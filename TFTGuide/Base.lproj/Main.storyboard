@@ -187,7 +187,7 @@
                             </tableView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="hAF-Gx-qGY"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="hAF-Gx-qGY" firstAttribute="trailing" secondItem="PUp-Rd-fz5" secondAttribute="trailing" id="LgY-pe-wRi"/>
                             <constraint firstItem="hAF-Gx-qGY" firstAttribute="bottom" secondItem="PUp-Rd-fz5" secondAttribute="bottom" id="VgS-F8-SoT"/>
@@ -321,7 +321,7 @@
                             </tableView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="JDD-rv-7ac"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="WLO-rG-Dda" firstAttribute="top" secondItem="JDD-rv-7ac" secondAttribute="top" id="4Zu-IC-Rgz"/>
                             <constraint firstAttribute="bottom" secondItem="WLO-rG-Dda" secondAttribute="bottom" id="A0Z-l2-5mb"/>
